@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "690682148803",
+    "firebase_url": "https://buysale-43102-default-rtdb.firebaseio.com",
+    "project_id": "buysale-43102",
+    "storage_bucket": "buysale-43102.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690682148803:android:97a3358be7fcf116ec6f76",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYBI1-gcwQkWPYzrGH7aYs0bCQd2LuX7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690682148803:android:cfdc0613cbecca6bec6f76",
+        "android_client_info": {
+          "package_name": "com.example.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYBI1-gcwQkWPYzrGH7aYs0bCQd2LuX7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
