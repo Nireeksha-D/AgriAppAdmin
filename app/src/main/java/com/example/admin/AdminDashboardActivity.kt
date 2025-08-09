@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import com.example.admin.User.UserManagementActivity
 import com.example.admin.Video.UploadVideoActivity
+import com.example.admin.order.OrderDetailsActivity
 
 class AdminDashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,8 +23,8 @@ class AdminDashboardActivity : AppCompatActivity() {
         findViewById<CardView>(R.id.cardUserManagement).setOnClickListener {
             startActivity(Intent(this, UserManagementActivity::class.java))
         }
-//        findViewById<CardView>(R.id.cardOrders).setOnClickListener {
-//            startActivity(Intent(this, OrdersActivity::class.java))
-//        }
+       findViewById<CardView>(R.id.cardOrders).setOnClickListener {
+          startActivity(Intent(this, OrderDetailsActivity::class.java))
+      }
     }
 } 
